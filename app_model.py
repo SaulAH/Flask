@@ -26,7 +26,7 @@ def git_update():
 
 @app.route('/',methods=['GET'])
 def hello():
-    return 'Mi primera API Flask'
+    return 'Mi primera API Flask act desde github'
 
 @app.route('/api/v1/predict',methods=['GET'])
 def predict():
